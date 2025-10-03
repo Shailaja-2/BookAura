@@ -22,7 +22,7 @@ const LogIn = () => {
         alert("All fields are required");
       } else {
         const response = await axios.post(
-          "http://localhost:1000/api/v1/sign-in",
+          "https://bookaura-4.onrender.com/api/v1/sign-in",
           Values
         );
         // console.log(response.data.id)
